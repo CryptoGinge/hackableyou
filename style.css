@@ -50,6 +50,7 @@ img.hbytitle {
     border-radius: 100px;
     border: #5c7ba4;
     border-width: 65px;
+    max-width: 100%;
     /* background-color: #5c7ba4; opacity: 0.8; */
 }
 
