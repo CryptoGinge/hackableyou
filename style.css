@@ -1,0 +1,83 @@
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Permanent Marker', cursive;
+    background: url(network.mp4) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+
+
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+div.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.buttonbanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header.hbyheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.hbytitle {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 100px;
+    border: #5c7ba4;
+    border-width: 65px;
+    /* background-color: #5c7ba4; opacity: 0.8; */
+}
+
+hr.linetop {
+    margin: 20px auto;
+    color: #5c7ba4;
+    border: 3px solid #5c7ba4;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+button.btn {
+    
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+
+}
+
+button.btn-primary {
+    
+    background-color:#0C1F49;
+    border-color: #0C1F49;
+}
+
+button.btn-primary:hover {
+    background-color:rgb(100, 100, 214);
+    border-color: rgb(100, 100, 214);
+    border-width: 4px;
+}
+
+button.btn-xl {
+    
+    padding: 1rem 2rem;
+}
